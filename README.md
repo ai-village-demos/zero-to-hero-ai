@@ -13,6 +13,10 @@ Throughout the workshop, you'll build a local chatbot, craft a web application f
 
 This is a basic overview of the exercises we'll cover in this workshop and what concepts will be explored during each:
 
+0. Tooling
+    - Installing Python
+    - Adding dependencies
+    - Alternate/Bonus: Installing [AIChat](https://github.com/sigoden/aichat): A Rust based app to use LLMs from the terminal.
 1. Basic Prompts of LLMs
     - What is an LLM?
     - What is a prompt?
