@@ -50,3 +50,19 @@ This is a basic overview of the exercises we'll cover in this workshop and what 
 The sheer amount and pace of research in this field is astounding. Keeping up with even 10% of what is released every week is nearly impossible, even for those working in the field.
 
 Given this pace, it's important to take a pragmatic, and goal focused approach to learning about AI. Decide what you would like to accomplish, and focus your research toward that goal.
+
+## Exercises
+
+### 0. Tooling
+
+In order to use any technology, there is usually common tooling that must be installed.
+
+For this workshop we'll be using:
+
+- Python
+- OpenAI libraries
+- Streamlit
+
+Alternately, if you cannot get those to install there is [AIChat](https://github.com/sigoden/aichat), a simple Rust CLI app that can be installed by just dropping the executable into your path. It will ask for the `OPENAI_API_KEY` on the first run and automatically create a configuration file.
+
+Some of the system prompt concepts that we will be covering later in the workshop can be emulated using [AIChat's roles](https://github.com/sigoden/aichat?tab=readme-ov-file#roles) feature. Refining and working with prompts can be accomplished via [sessions](https://github.com/sigoden/aichat?tab=readme-ov-file#session---context-aware-conversation).
