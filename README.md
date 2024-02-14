@@ -71,6 +71,18 @@ Some of the system prompt concepts that we will be covering later in the worksho
 
 LLMs (Large Language Models) at their core, are auto-complete systems. The patterns they use are far more complex than the old Markov Chain based auto-complete of just a few years ago.
 
+#### Models
+
+LLMs are odd compared to traditional computer programs. In a traditional program, the code completely governs what it does and how it works.
+
+LLMs, like all machine learning based systems, are a combination of an algorithm/data structures and a training set of data that is used to teach the model what to do. Really this training data is the source of the model weights that allow the model to do useful things. It is a numerical encoding of the patterns that have been extracted from the training data.
+
+Different [models](https://platform.openai.com/docs/models/overview) behave very differently depending on the size of the model, the training data provided to it, and the internal system prompt (which we'll cover later).
+
+For this workshop we'll mostly be using [GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo) and [GPT-4](https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo). As you build systems in the future, it's worth looking at other models to find those that best fit your needs and use cases e.g. **open-source and locally hosted models have far better privacy** and can potentially perform better (fine-tuning, lack of guard rails), and **are not at risk of becoming unavailable due to throttling, policy changes, or internet outages**.
+
+#### Prompts
+
 They are also unlike the search engines we've all grown used to over the past three decades. Search engines have mostly used keywords to find documents that match. While they have improved a bit, they are still pretty unsophisticated when it comes to queries, with fewer words (the essence of the query) tending to produce better results than fully formed questions.
 
 With LLMs this is the exact opposite. They thrive on patterns, so the more text given, the more patterns there are to draw on when constructing answers.
