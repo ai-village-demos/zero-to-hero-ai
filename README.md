@@ -74,3 +74,19 @@ LLMs (Large Language Models) at their core, are auto-complete systems. The patte
 They are also unlike the search engines we've all grown used to over the past three decades. Search engines have mostly used keywords to find documents that match. While they have improved a bit, they are still pretty unsophisticated when it comes to queries, with fewer words (the essence of the query) tending to produce better results than fully formed questions.
 
 With LLMs this is the exact opposite. They thrive on patterns, so the more text given, the more patterns there are to draw on when constructing answers.
+
+### 2. Prompt Engineering
+
+### 3. Input and Output Guidance and Data Formats
+
+### 4. System Prompts
+
+### 5. Code Generation
+
+### 6. Analyzing a GitHub Repo For Vulnerabilities
+
+### 7. Malware analysis via Malware Bazaar API
+
+### 8. STRIDE Threat Modeling
+
+### 9. Text Summarization
