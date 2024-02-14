@@ -40,3 +40,9 @@ This is a basic overview of the exercises we'll cover in this workshop and what 
 9. Text Summarization
     - How to summarize text
     - Modifying the length of the summary
+
+## Advice
+
+The sheer amount and pace of research in this field is astounding. Keeping up with even 10% of what is released every week is nearly impossible, even for those working in the field.
+
+Given this pace, it's important to take a pragmatic, and goal focused approach to learning about AI. Decide what you would like to accomplish, and focus your research toward that goal.
