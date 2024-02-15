@@ -89,6 +89,30 @@ With LLMs this is the exact opposite. They thrive on patterns, so the more text 
 
 ### 2. Prompt Engineering
 
+Going beyond the basics, there are specific techniques that we can use to improve the results we get back from an LLM.
+
+We'll cover a few basic concepts such as:
+
+- Zero-shot Prompting
+- Few-shot Prompting
+- Chain-of-Thought Prompting
+- Self-Consistency
+
+#### Roadmap
+
+The actual space is much, much larger with multiple interrelated aspects as you can see in this map:
+
+[![Prompt Engineering Roadmap](img/prompt-engineering-roadmap.svg)](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering?tab=readme-ov-file#roadmaps)
+
+#### Resources
+
+If you'd like to go deeper, take a look at these resources:
+
+- [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts): This repo includes ChatGPT prompt curation to use ChatGPT better.
+- [Learn Prompting](https://learnprompting.org/docs/basics/prompt_engineering)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering?tab=readme-ov-file): A curated list of awesome resources, tools, and other shiny things for GPT prompt engineering. (The roadmap above is taken from here.)
+
 ### 3. Input and Output Guidance and Data Formats
 
 ### 4. System Prompts
