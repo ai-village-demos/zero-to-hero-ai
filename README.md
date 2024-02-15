@@ -3,7 +3,7 @@
 A 2 hour workshop given in the [AI Village](https://www.cactuscon.com/villages#block-yui_3_17_2_1_1704407426583_5547) at [CactusCon 12](https://www.cactuscon.com/cc12-schedule).
 
 Time: **2:00 pm - 4:00 pm on Friday and Saturday**<br>
-Presenters: **conf1ck3r** and **Elio Grieco**
+Presenters: **Elijah Woodward** and **Elio Grieco**
 
 Looking for a way to break into the world of AI agents without getting overwhelmed? This hands-on session aims to teach you how to build your own AI agents from scratch using the OpenAI API and Python. The workshop emphasizes practical skills and is geared towards beginners to guide you in API usage, scripting, and web interfaces to help you boost your productivity.
 
