@@ -115,6 +115,15 @@ If you'd like to go deeper, take a look at these resources:
 
 ### 3. Input and Output Guidance and Data Formats
 
+In addition to the techniques above, the format of the data can be modified.
+
+System prompts can be given in [Markdown](https://www.markdownguide.org/basic-syntax/) to help organize data for those constructing the prompt as well as the LLM acting on it.
+
+Additionally, output can be modified in several ways:
+
+1. Ask for output in a specific format e.g. CSV or JSON
+2. Provide a template to the LLM and ask it to format its answers according to the template.
+
 ### 4. System Prompts
 
 ### 5. Code Generation
