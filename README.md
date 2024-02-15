@@ -115,11 +115,18 @@ If you'd like to go deeper, take a look at these resources:
 
 ### 3. System Prompts
 
+One idea that follows from the fact that we can use very long prompts to costomize how the LLM responds, is the idea of a `system prompt` that we can "prime" the model with to make it behave in a specific way with regard to more input.
+
+Some good examples of system prompts:
+
+- [ChatGPT-System-Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts?tab=readme-ov-file#prompts-by-category)
+- Daniel Miessler's [fabric](https://github.com/danielmiessler/fabric?tab=readme-ov-file#examples) project
+
 ### 4. Input and Output Guidance and Data Formats
 
 In addition to the techniques above, the format of the data can be modified.
 
-System prompts can be given in [Markdown](https://www.markdownguide.org/basic-syntax/) to help organize data for those constructing the prompt as well as the LLM acting on it.
+System prompts can be given in [Markdown](https://www.markdownguide.org/basic-syntax/) to help organize data for those constructing the prompt as well as the LLM acting on it. (The prompts in `fabric` above are good example of this.)
 
 Additionally, output can be modified in several ways:
 
