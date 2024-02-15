@@ -135,6 +135,15 @@ Additionally, output can be modified in several ways:
 
 ### 5. Code Generation
 
+LLMs can be used to generate code as well as written text and data. However there are a few caveats:
+
+#### Caveats
+
+- **Broken Code**: LLMs work based on patterns, but these patterns may not match those present in high quality, well engineered code. It's likely that generated code will not work or may give incorrect results if used directly. However, it is usually a good starting point that can be modified into robust, working code.
+- **Mixed Library Versions**: Code may be generated that uses API calls from several versions of a given library. Most programming languages struggle to use multiple versions of the same library in a single program. If it compiles/works at all, you'll probably have to modify the code to use the newest API before running the code.
+- **Subtle Bugs**: Because the LLM does not understand the dataflow through the program, nor any of the program logic directly, it may have bugs that are not immediately apparent. The generated code is also unlikely to properly account for all possible values/patterns in input data, or various exceptional conditions that may occur during use.
+- **The Code Paradox**: LLMs are better at generating "boilerplate" style code than novel new algorithms. However, boilerplate code is the sign of a poorly designed system and can decrease software quality, increase code churn, and make code harder to maintain. Basically, they are good at bad code.
+
 ### 6. Analyzing a GitHub Repo For Vulnerabilities
 
 ### 7. Malware analysis via Malware Bazaar API
