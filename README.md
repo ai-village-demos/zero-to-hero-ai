@@ -113,7 +113,9 @@ If you'd like to go deeper, take a look at these resources:
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering?tab=readme-ov-file): A curated list of awesome resources, tools, and other shiny things for GPT prompt engineering. (The roadmap above is taken from here.)
 
-### 3. Input and Output Guidance and Data Formats
+### 3. System Prompts
+
+### 4. Input and Output Guidance and Data Formats
 
 In addition to the techniques above, the format of the data can be modified.
 
@@ -123,8 +125,6 @@ Additionally, output can be modified in several ways:
 
 1. Ask for output in a specific format e.g. CSV or JSON
 2. Provide a template to the LLM and ask it to format its answers according to the template.
-
-### 4. System Prompts
 
 ### 5. Code Generation
 
