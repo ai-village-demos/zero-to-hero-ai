@@ -150,4 +150,6 @@ LLMs can be used to generate code as well as written text and data. However ther
 
 ### 8. STRIDE Threat Modeling
 
+![STRIDE Threat Model](img/stride-threat-model.png)
+
 ### 9. Text Summarization
