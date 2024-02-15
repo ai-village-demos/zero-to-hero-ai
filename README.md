@@ -24,13 +24,13 @@ This is a basic overview of the exercises we'll cover in this workshop and what 
 2. Prompt Engineering
     - Refining prompts
     - Chain of thought reasoning
-3. Input and Output Guidance and Data Formats
-    - Parsing sloppy input data
-    - Output in specific formats like JSON, CSV
-4. System Prompts
+3. System Prompts
     - If you had an intern, what would you want them to do?
     - Creating a good system prompt
     - Using data formats e.g. markdown
+4. Input and Output Guidance and Data Formats
+    - Parsing sloppy input data
+    - Output in specific formats like JSON, CSV
 5. Code Generation
     - Cli chains
     - Explaining them
