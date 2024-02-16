@@ -1,0 +1,3 @@
+[submodule "8-stride-threat-modeling/stride-gpt"]
+	path = 8-stride-threat-modeling/stride-gpt
+	url = https://github.com/mrwadams/stride-gpt
