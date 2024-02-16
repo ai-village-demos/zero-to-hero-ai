@@ -53,7 +53,7 @@ Given this pace, it's important to take a pragmatic, and goal focused approach t
 
 ## Exercises
 
-### 0. Tooling
+### [0. Tooling](0-tooling/README.md)
 
 In order to use any technology, there is usually common tooling that must be installed.
 
