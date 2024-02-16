@@ -195,3 +195,5 @@ The STRIDE framework is a way of separating concerns into six different categori
 Here is a presentation discussing this project: [AI-Driven Threat Modelling with STRIDE GPT](https://open-security-summit.org/sessions/2024/mini-summits/jan/threat-modeling/ai-driven-threat-modelling-with-stride-gpt/) ([Video](https://www.youtube.com/watch?v=_eOcezCeM1M))
 
 ### 9. Text Summarization
+
+- [How to Summarize Youtube Video using ChatGPT Api and Node.js](https://implementing.substack.com/p/how-to-summarize-youtube-video-using)
