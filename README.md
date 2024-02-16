@@ -35,10 +35,10 @@ This is a basic overview of the exercises we'll cover in this workshop and what 
     - Cli chains
     - Explaining them
     - Writing Code in Python
-6. Analyzing a GitHub Repo For Vulnerabilities
-    - Creating snort rules for POC expolits on GitHub
-    - Finding vulnerabilities in files from GitHub repos
+6. Exploit Code Analysis and Detection Rule Generation
+    - Creating SNORT rules for POC exploits on GitHub
 7. Malware analysis via Malware Bazaar API
+    - Finding vulnerabilities in files from GitHub repos
 8. STRIDE Threat Modeling
     - What is STRIDE
 9. Text Summarization
@@ -144,7 +144,12 @@ LLMs can be used to generate code as well as written text and data. However ther
 - **Subtle Bugs**: Because the LLM does not understand the dataflow through the program, nor any of the program logic directly, it may have bugs that are not immediately apparent. The generated code is also unlikely to properly account for all possible values/patterns in input data, or various exceptional conditions that may occur during use.
 - **The Code Paradox**: LLMs are better at generating "boilerplate" style code than novel new algorithms. However, boilerplate code is the sign of a poorly designed system and can decrease software quality, increase code churn, and make code harder to maintain. Basically, they are good at bad code.
 
-### 6. Analyzing a GitHub Repo For Vulnerabilities
+- [New GitHub Copilot Research Finds 'Downward Pressure on Code Quality' -- Visual Studio Magazine](https://visualstudiomagazine.com/articles/2024/01/25/copilot-research.aspx)
+- [Coding on Copilot: 2023 Data Suggests Downward Pressure on Code Quality (incl 2024 projections) - GitClear](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality)
+
+### 6. Exploit Code Analysis and Detection Rule Generation
+
+- [Exploit Database - Exploits for Penetration Testers, Researchers, and Ethical Hackers](https://www.exploit-db.com/)
 
 ### 7. Malware analysis via Malware Bazaar API
 
