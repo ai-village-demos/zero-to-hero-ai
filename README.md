@@ -14,36 +14,36 @@ Throughout the workshop, you'll build a local chatbot, craft a web application f
 This is a basic overview of the exercises we'll cover in this workshop and what concepts will be explored during each:
 
 0. Tooling
-    - Installing Python
-    - Adding dependencies
-    - Alternate/Bonus: Installing [AIChat](https://github.com/sigoden/aichat): A Rust based app to use LLMs from the terminal.
+   - Installing Python
+   - Adding dependencies
+   - Alternate/Bonus: Installing [AIChat](https://github.com/sigoden/aichat): A Rust based app to use LLMs from the terminal.
 1. Basic Prompts of LLMs
-    - What is an LLM?
-    - What is a prompt?
-    - What is a good prompt?
+   - What is an LLM?
+   - What is a prompt?
+   - What is a good prompt?
 2. Prompt Engineering
-    - Refining prompts
-    - Chain of thought reasoning
+   - Refining prompts
+   - Chain of thought reasoning
 3. System Prompts
-    - If you had an intern, what would you want them to do?
-    - Creating a good system prompt
-    - Using data formats e.g. markdown
+   - If you had an intern, what would you want them to do?
+   - Creating a good system prompt
+   - Using data formats e.g. markdown
 4. Input and Output Guidance and Data Formats
-    - Parsing sloppy input data
-    - Output in specific formats like JSON, CSV
+   - Parsing sloppy input data
+   - Output in specific formats like JSON, CSV
 5. Code Generation
-    - Cli chains
-    - Explaining them
-    - Writing Code in Python
+   - Cli chains
+   - Explaining them
+   - Writing Code in Python
 6. Exploit Code Analysis and Detection Rule Generation
-    - Creating SNORT rules for POC exploits on GitHub
+   - Creating SNORT rules for POC exploits on GitHub
 7. Malware analysis via Malware Bazaar API
-    - Finding vulnerabilities in files from GitHub repos
+   - Finding vulnerabilities in files from GitHub repos
 8. STRIDE Threat Modeling
-    - What is STRIDE
+   - What is STRIDE
 9. Text Summarization
-    - How to summarize text
-    - Modifying the length of the summary
+   - How to summarize text
+   - Modifying the length of the summary
 
 ## Advice
 
@@ -174,7 +174,7 @@ LLMs can be used to generate code as well as written text and data. However ther
 - [New GitHub Copilot Research Finds 'Downward Pressure on Code Quality' -- Visual Studio Magazine](https://visualstudiomagazine.com/articles/2024/01/25/copilot-research.aspx)
 - [Coding on Copilot: 2023 Data Suggests Downward Pressure on Code Quality (incl 2024 projections) - GitClear](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality)
 
-### 6. Exploit Code Analysis and Detection Rule Generation
+### [6. Exploit Code Analysis and Detection Rule Generation](6-exploit-code-analysis/README.md)
 
 - [Exploit Database - Exploits for Penetration Testers, Researchers, and Ethical Hackers](https://www.exploit-db.com/)
 
