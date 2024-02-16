@@ -111,12 +111,13 @@ They are also unlike the search engines we've all grown used to over the past th
 
 With LLMs this is the exact opposite. They thrive on patterns, so the more text given, the more patterns there are to draw on when constructing answers.
 
-### 2. Prompt Engineering
+### [2. Prompt Engineering](2-prompt-engineering/README.md)
 
 Going beyond the basics, there are specific techniques that we can use to improve the results we get back from an LLM.
 
 We'll cover a few basic concepts such as:
 
+- Role Prompting
 - Zero-shot Prompting
 - Few-shot Prompting
 - Chain-of-Thought Prompting
