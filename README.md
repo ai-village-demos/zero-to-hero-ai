@@ -138,7 +138,7 @@ If you'd like to go deeper, take a look at these resources:
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering?tab=readme-ov-file): A curated list of awesome resources, tools, and other shiny things for GPT prompt engineering. (The roadmap above is taken from here.)
 
-### 3. System Prompts
+### [3. System Prompts](3-system-prompts/README.md)
 
 One idea that follows from the fact that we can use very long prompts to costomize how the LLM responds, is the idea of a `system prompt` that we can "prime" the model with to make it behave in a specific way with regard to more input.
 
@@ -146,6 +146,8 @@ Some good examples of system prompts:
 
 - [ChatGPT-System-Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts?tab=readme-ov-file#prompts-by-category)
 - Daniel Miessler's [fabric](https://github.com/danielmiessler/fabric?tab=readme-ov-file#examples) project
+
+This allows you to distribute these tools to the entire org.
 
 ### 4. Input and Output Guidance and Data Formats
 
