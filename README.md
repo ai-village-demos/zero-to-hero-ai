@@ -91,7 +91,7 @@ Alternately, if you cannot get those to install there is [AIChat](https://github
 
 Some of the system prompt concepts that we will be covering later in the workshop can be emulated using [AIChat's roles](https://github.com/sigoden/aichat?tab=readme-ov-file#roles) feature. Refining and working with prompts can be accomplished via [sessions](https://github.com/sigoden/aichat?tab=readme-ov-file#session---context-aware-conversation).
 
-### 1. Basic Prompts
+### [1. Basic Prompts](1-basic-prompts/README.md)
 
 LLMs (Large Language Models) at their core, are auto-complete systems. The patterns they use are far more complex than the old Markov Chain based auto-complete of just a few years ago.
 
