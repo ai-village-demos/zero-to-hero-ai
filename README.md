@@ -51,6 +51,30 @@ The sheer amount and pace of research in this field is astounding. Keeping up wi
 
 Given this pace, it's important to take a pragmatic, and goal focused approach to learning about AI. Decide what you would like to accomplish, and focus your research toward that goal.
 
+## Warnings and Caveats
+
+### Sensitive Data and Copyright
+
+- **Never send sensitive information to a cloud based AI/ML provider.** Read their terms of service very, very carefully. Are they training this or future models on your input or the model's output?
+- Be **careful using sensitive data to train local models** if you will share the trained model externally later. There are attacks that can get models to divulge their training data, sometimes nearly verbatim.
+- **Output from AI/ML models is neither eligible for [copyright](https://patentlyo.com/patent/2023/08/district-ineligible-copyright.html), nor patent in the [US](https://www.cnn.com/2024/02/14/tech/billions-in-ai-patents-get-new-regulations/index.html) or [UK](https://www.bbc.co.uk/news/technology-67772177)**.
+
+### External Dependencies
+
+External services are convenient, but they have risks that should be considered:
+
+- **Unavailability** when you need them most. Did the network go down? Are they having a system issue or suffering a cyberattack?
+- **Price increases.** All online services raise their prices over time. Some raise the price slowly, but others raise their prices drastically overnight (10x or higher in some cases).
+- **Service termination.** While Google has the biggest [graveyard](https://killedbygoogle.com/), most other large companies have quite a few dead projects and services behind them. Be careful building a company or critical tool around a Cloud™ service that might get shut down in a few years, possibly [without notice](https://9to5google.com/2022/09/29/stadia-employees-shutdown-meeting-harrison/). Just ask [Google Stadia developers](https://arstechnica.com/gaming/2022/10/meet-the-stadia-developers-blindsided-by-googles-latest-product-shutdown/).
+
+### AI Efficacy
+
+- Think of AI as **an eager toddler**, **an intern** who's work you'll look over, or **a bionic rubber duck** you can use start a conversation on new problems that you'll more fully research and refine later.
+- [Paradox of Automation](https://www.theguardian.com/technology/2016/oct/11/crash-how-computers-are-setting-us-up-disaster): The better the automatic systems, the more out-of-practice human operators will be, and the more extreme the situations they will have to face.
+- **It works until it doesn't, and it can be very hard to tell when it doesn't.** Some failures are like dental health: if you skip brushing your teeth for a night it's not that big a deal, but if you don't brush for months, suddenly you can have very serious problems to deal with.
+
+[![Rubbot, robot and rubber duck](img/felipe-souza-pato-de-burracha-heroi.jpg)](https://www.artstation.com/artwork/WK0O1E)
+
 ## Exercises
 
 ### [0. Tooling](0-tooling/README.md)
