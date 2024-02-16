@@ -180,8 +180,18 @@ LLMs can be used to generate code as well as written text and data. However ther
 
 ### 7. Malware analysis via Malware Bazaar API
 
-### 8. STRIDE Threat Modeling
+### [8. STRIDE Threat Modeling](8-stride-threat-modeling/README.md)
+
+Threat modeling is essential to security. A good threat model informs the rest of your security decisions, whether strategic, architectural, or operational.
+
+The STRIDE framework is a way of separating concerns into six different categories.
 
 ![STRIDE Threat Model](img/stride-threat-model.png)
+
+#### stride-gpt
+
+[stride-gpt](https://github.com/mrwadams/stride-gpt?tab=readme-ov-file) is an AI-powered threat modeling tool that leverages OpenAI's GPT models to generate threat models for a given application based on the STRIDE methodology.
+
+Here is a presentation discussing this project: [AI-Driven Threat Modelling with STRIDE GPT](https://open-security-summit.org/sessions/2024/mini-summits/jan/threat-modeling/ai-driven-threat-modelling-with-stride-gpt/) ([Video](https://www.youtube.com/watch?v=_eOcezCeM1M))
 
 ### 9. Text Summarization
